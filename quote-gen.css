@@ -1,0 +1,36 @@
+body {
+  background: #1f2021;
+}
+
+.btn-primary, .btn-primary:focus {
+  background: #1f2021;
+  border: solid white 1px;
+  border-radius: 0;
+}
+
+.btn-primary:hover {
+  color: #1f2021;
+  background: white;
+  border-color: white;
+}
+
+.btn-primary:active {
+  border-color: white;
+}
+
+.quote-text {
+  font-size: 140%;
+}
+
+.quote-author {
+  font-size: 120%;
+}
+
+.quote {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.btndiv {
+  margin-top: 250px;
+}
