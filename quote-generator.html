@@ -1,30 +1,26 @@
-{% extends "../home/base.html" %}
-{% block title %}
-Quote Generator
-{% endblock %}
-
-{% block header %}
-<script src="/static/js/quoteGen.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-<link rel="EditURI" type="application/rsd+xml" href="//en.wikiquote.org/w/api.php?action=rsd"/>
-<link href="https://twitter.com/intent/tweet">
-<link rel="stylesheet" href="/static/css/quote-gen.css">
-{% endblock %}
-
-{% block content %}
-<div class="container">
-	<div class="row align-items-center justify-content-center btndiv">
-		<div class="col-xs-6 text-center">
-			<button class="btn btn-primary" id="btn-quote">CLICK FOR RANDOM QUOTE</button>
-  			<a href="https://twitter.com/intent/tweet" class="btn btn-primary twitter-share-button" target="_blank"><i class="fa fa-twitter"></i></a>
-  			<p class="quote quote-text text-center mt-4">Quality is not an act, it is a habit.</p>
-			<p class="quote quote-author text-center py-0">- Aristotle -</p>			
-		</div>		
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quote Generator</title>
+	<script src="/static/js/quoteGen.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link rel="EditURI" type="application/rsd+xml" href="//en.wikiquote.org/w/api.php?action=rsd"/>
+	<link href="https://twitter.com/intent/tweet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/css/quote-gen.css">
+</head>
+	
+<body>	
+	<div class="container">
+		<div class="row align-items-center justify-content-center btndiv">
+			<div class="col-xs-6 text-center">
+				<button class="btn btn-primary" id="btn-quote">CLICK FOR RANDOM QUOTE</button>
+				<a href="https://twitter.com/intent/tweet" class="btn btn-primary twitter-share-button" target="_blank"><i class="fa fa-twitter"></i></a>
+				<p class="quote quote-text text-center mt-4">Quality is not an act, it is a habit.</p>
+				<p class="quote quote-author text-center py-0">- Aristotle -</p>			
+			</div>		
+		</div>
 	</div>
-</div>
 
-<div class="text-center" style="padding-top: 90px">
-	<a href="#"><i class="fa fa-github fontlink-dark" aria-hidden="true"></i></a>
-	<p class="text-center" style="font-family: Montserrat">This project was written in jQuery. Click for github code.</p>
-</div>
-{% endblock %}
+</body>
+</html>
